@@ -1,0 +1,24 @@
+    #include <stdio.h>
+    #include<stdlib.h>
+    #include <string.h>
+    #include <ctype.h>
+    #include <math.h>
+    int main() {
+        //char b[3]="YES";
+       // char e[3] = "NO";
+        int n;
+        scanf("%d" ,&n);
+        int f = n% 10; //the second num 
+        int a = n / 10;// the first num
+        if ((f % a == 0) || (a % f == 0)) {
+            printf("YES");
+        }
+        else 
+            printf("NO");
+
+       
+       
+      
+
+        return 0;
+        }

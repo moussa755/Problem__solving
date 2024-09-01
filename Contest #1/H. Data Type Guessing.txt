@@ -1,0 +1,29 @@
+            #include <stdio.h>
+            #include<stdlib.h>
+            #include <string.h>
+            #include <ctype.h>
+            #include <math.h>
+            int main() {
+                double n, k, a;
+                scanf("%lf %lf %lf", &n, &k, &a);
+
+                long long rus = (n * k) / a;
+                double x = (n * k) / a;
+                double v = x - rus;
+
+                if (v > 0) {
+                    printf("double");
+                    return 0;
+                }
+                 if (rus <= 2147483647) {
+                    printf("int");
+                }
+                else {
+                    printf("long long");
+                }
+       
+       
+      
+
+                
+                }
