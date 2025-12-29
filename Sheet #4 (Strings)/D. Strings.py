@@ -1,0 +1,5 @@
+a=input()
+b=input()
+print(len(a),len(b))
+print(a+b)
+print(b[0]+a[1:],a[0]+b[1:])
