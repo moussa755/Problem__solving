@@ -1,6 +1,5 @@
 num = int (input())   
-for i in range(num+14
-) :
+for i in range(num) :
     s=input()
     if len(s)<=10 :
         print(s)
