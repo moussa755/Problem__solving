@@ -5,3 +5,7 @@ for i in range(len(s)):
     y=int(y)
     x=x+y
 print(x)
+
+
+
+
